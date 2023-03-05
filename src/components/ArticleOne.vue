@@ -38,7 +38,7 @@ export default {
         </button>
       </div>
     </div>
-    <img src="../assets/img/img-1.svg" alt="img one" />
+    <img class="mx-auto" src="../assets/img/img-1.svg" alt="img one" />
   </div>
 </template>
 
