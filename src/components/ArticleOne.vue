@@ -9,8 +9,8 @@ export default {
 </script>
 
 <template>
-  <div>
-    <div class="section text-center pt-32 container">
+  <div class="section container text-center">
+    <div class="py-16">
       <h1 class="text-[38px] leading-[56px] font-bold text-[#172E80]">
         Pay, Invest, Save your Cash with a single bank
       </h1>
