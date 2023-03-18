@@ -1,15 +1,7 @@
-<script lang="ts">
-export default {
-  data() {
-    return {};
-  },
-
-  methods: {},
-};
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div class="pt-[100px]">jfjfjfj</div>
+  <div></div>
 </template>
 
 <style scoped></style>

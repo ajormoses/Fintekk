@@ -15,7 +15,7 @@ import Service from "../components/Reusuable/Service.vue";
           finances and handle payments smooth and easy.
         </p>
       </div>
-      <div class="py-10">
+      <div class="pt-10">
         <Service
           h="Easy Payment"
           p="Stress-free payment for all transactions that you do at any time."
