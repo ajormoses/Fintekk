@@ -1,12 +1,12 @@
 <template>
-  <div class="py-4 mb-12 main-bg relative">
+  <div class="py-8 bg-[#FBFBFB] relative">
     <div
       class="slider opacity-[0.5] m-auto overflow-hidden relative max-w-[1500px]"
     >
       <!-- <div class=""> -->
       <div class="slide-track gap-4">
         <div class="slide" v-for="image in images" :key="image">
-          <img :src="image" alt="slide 01" />
+          <img src="../assets/img/slide1.svg" alt="slide 01" />
         </div>
       </div>
       <!-- </div> -->
@@ -55,17 +55,7 @@ const images: string[] = [
 .slider .slide {
   width: 270px;
   /* height: 395px; */
-  height: 380px;
-}
-
-.main-bg {
-  background: rgba(100, 74, 226, 0.5);
-}
-
-.homemain {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  z-index: 10;
+  /* height: 380px; */
+  /* height: 100px; */
 }
 </style>
