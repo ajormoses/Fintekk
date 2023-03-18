@@ -4,8 +4,8 @@ import Faqs from "./Faqs.vue";
 
 <template>
   <div class="bg-[#F9F9F9] section">
-    <div class="container">
-      <img src="/img/questions.svg" alt="questions" />
+    <div>
+      <img class="m-auto" src="/img/questions.svg" alt="questions" />
       <Faqs />
     </div>
   </div>

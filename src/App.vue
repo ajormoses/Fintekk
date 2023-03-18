@@ -5,6 +5,7 @@ import SponsorsCarousel from "./components/SponsorsCarousel.vue";
 import ArticleTwo from "./components/ArticleTwo.vue";
 import ArticleThree from "./components/ArticleThree.vue";
 import ArticleFour from "./components/ArticleFour.vue";
+import ArticleFive from "./components/ArticleFive.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import ArticleFour from "./components/ArticleFour.vue";
   <ArticleTwo />
   <ArticleThree />
   <ArticleFour />
+  <ArticleFive />
 </template>
 
 <style scoped></style>
