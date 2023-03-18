@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div class="section container text-center">
+  <div class="section container text-center md:h-[100vh]">
     <div class="py-16">
       <h1 class="text-[38px] leading-[56px] font-bold text-[#172E80]">
         Pay, Invest, Save your Cash with a single bank
@@ -27,18 +27,18 @@ export default {
         <button
           class="btn p-[14px] w-[200px] bg-[#fff] rounded-2xl border border-[#3a3a3a] my-4 flex justify-center items-center"
         >
-          <img class="mr-3" src="../assets/img/apple.svg" alt="apple" />
+          <img class="mr-3" src="/img/apple.svg" alt="apple" />
           Get on iphone
         </button>
         <button
           class="btn p-[14px] w-[200px] bg-[#fff] rounded-2xl border border-[#3a3a3a] flex justify-center items-center"
         >
-          <img class="mr-3" src="../assets/img/andriod.svg" alt="Andriod" />
+          <img class="mr-3" src="/img/andriod.svg" alt="Andriod" />
           Get on Andriod
         </button>
       </div>
     </div>
-    <img class="mx-auto" src="../assets/img/img-1.svg" alt="img one" />
+    <img class="mx-auto" src="/img/img-1.svg" alt="img one" />
   </div>
 </template>
 

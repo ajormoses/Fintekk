@@ -15,9 +15,9 @@ const props = defineProps(["h", "p", "url"]);
       <p class="mr-2 text-[18px] leading-[22px] text-[#2E5CFF] font-bold">
         Read More
       </p>
-      <img class="mt-[0.6px]" src="../../assets/img/arrow-right-short.svg" />
+      <img class="mt-[0.6px]" src="/img/arrow-right-short.svg" />
     </div>
-    <img class="mx-auto mt-5" :src="props.url" />
+    <img class="mx-auto mt-5" :src="`/img/${url}`" />
   </div>
 </template>
 

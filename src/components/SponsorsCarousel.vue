@@ -6,7 +6,7 @@
       <!-- <div class=""> -->
       <div class="slide-track gap-4">
         <div class="slide" v-for="image in images" :key="image">
-          <img src="../assets/img/slide1.svg" alt="slide 01" />
+          <img :src="image" alt="slide 01" />
         </div>
       </div>
       <!-- </div> -->
@@ -16,16 +16,16 @@
 
 <script setup lang="ts">
 const images: string[] = [
-  "../assets/img/slide1.svg",
-  "../assets/img/slide2.svg",
-  "../assets/img/slide3.svg",
-  "../assets/img/slide4.svg",
-  "../assets/img/slide5.svg",
-  "../assets/img/slide1.svg",
-  "../assets/img/slide2.svg",
-  "../assets/img/slide3.svg",
-  "../assets/img/slide4.svg",
-  "../assets/img/slide5.svg",
+  "/img/slide1.svg",
+  "/img/slide2.svg",
+  "/img/slide3.svg",
+  "/img/slide4.svg",
+  "/img/slide5.svg",
+  "/img/slide1.svg",
+  "/img/slide2.svg",
+  "/img/slide3.svg",
+  "/img/slide4.svg",
+  "/img/slide5.svg",
 ];
 </script>
 

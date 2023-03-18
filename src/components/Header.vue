@@ -18,7 +18,7 @@ export default {
   <div class="fixed w-full bg-[#fff] shadow-[2px_2px_8px_0px_#2E5CFF1A] z-30">
     <div class="container flex justify-between item-center py-5">
       <h1 class="text-[#2E5CFF] font-semibold text-[21px]">Fintekk</h1>
-      <img @click="toggle" src="../assets/img/hamburger.svg" alt="hamburger" />
+      <img @click="toggle" src="/img/hamburger.svg" alt="hamburger" />
     </div>
     <div
       class="nav container bg-[#5BCDF0] text-center py-2 rounded-lg z-30"

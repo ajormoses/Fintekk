@@ -19,17 +19,17 @@ import Service from "../components/Reusuable/Service.vue";
         <Service
           h="Easy Payment"
           p="Stress-free payment for all transactions that you do at any time."
-          url="../../assets/img/service1.svg"
+          url="service1.svg"
         />
         <Service
           h="Investments"
           p="Grow your money by investing in pre-vetted investment opportunities."
-          url="../../assets/img/service2.svg"
+          url="service2.svg"
         />
         <Service
           h="Fixed Savings"
           p="Build a dedicated savings faster on your terms automatically or manually."
-          url="../../assets/img/service3.svg"
+          url="service3.svg"
         />
       </div>
     </div>
