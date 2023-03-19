@@ -3,7 +3,7 @@ const props = defineProps(["h", "p", "url", "bg"]);
 </script>
 
 <template>
-  <div class="mb-8 rounded-[1.5rem] p-5" :class="bg">
+  <div class="mb-8 rounded-[1.5rem] p-5 lg:p-8" :class="bg">
     <h1 class="text-[28px] leading-[34px] text-[#172E80] font-bold">
       <!-- Easy Payment -->
       {{ h }}

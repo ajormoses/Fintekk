@@ -48,28 +48,36 @@ export default {
         Sign Up for Free
       </button>
     </div>
-    <div class="hidden container py-4 lg:flex justify-between items-center">
+    <div
+      class="hidden container py-4 xl:py-6 lg:flex justify-between items-center"
+    >
       <h1 class="text-[#2E5CFF] font-semibold text-[28px]">Fintekk</h1>
       <div class="flex items-center justify-between text-[#171717]">
         <a @click="top" href="#home"
-          ><p class="mx-5 text-[18px] leading-[29px]">Home</p></a
+          ><p class="mx-8 text-[18px] xl:text-[24px] leading-[29px]">Home</p></a
         >
         <a href="#about"
-          ><p class="mx-5 text-[18px] leading-[29px]">About</p></a
+          ><p class="mx-8 text-[18px] xl:text-[24px] leading-[29px]">
+            About
+          </p></a
         >
-        <a href="#faq"><p class="mx-5 text-[18px] leading-[29px]">FAQs</p></a>
+        <a href="#faq"
+          ><p class="mx-8 text-[18px] xl:text-[24px] leading-[29px]">FAQs</p></a
+        >
         <a href="#contact"
-          ><p class="mx-5 text-[18px] leading-[29px]">Contact Us</p></a
+          ><p class="mx-8 text-[18px] xl:text-[24px] leading-[29px]">
+            Contact Us
+          </p></a
         >
       </div>
       <div>
         <button
-          class="text-[#2E5CFF] border border-[#2E5CFF] bg-[#fff] py-[10px] px-[20px] rounded-xl"
+          class="text-[#2E5CFF] xl:text-[21px] border border-[#2E5CFF] bg-[#fff] py-[10px] px-[20px] rounded-xl"
         >
           Login
         </button>
         <button
-          class="bg-[#2E5CFF] text-white ml-4 py-[10px] px-[20px] rounded-xl"
+          class="bg-[#2E5CFF] xl:text-[21px] text-white ml-4 py-[10px] px-[20px] rounded-xl"
         >
           Sign Up for Free
         </button>
