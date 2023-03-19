@@ -20,9 +20,11 @@ export default {
   <div class="mb-4">
     <div
       @click="open"
-      class="border border-white rounded-lg flex justify-between items-center py-2 px-4"
+      class="border border-white rounded-lg flex justify-between items-center py-2 px-4 lg:h-[60px] xl:h-[80px] cursor-pointer"
     >
-      <p class="text-white text-base leading-[19.4px]">
+      <p
+        class="text-white text-base leading-[19.4px] xl:text-[24px] xl:leading-[30px]"
+      >
         {{ question }}
       </p>
       <div>
@@ -31,7 +33,9 @@ export default {
       </div>
     </div>
     <div v-if="answer" class="bg-white rounded-lg mt-[0.1rem]">
-      <p class="text-[#172E80] leading-[24px] px-4 pt-2 pb-8 text-[14px]">
+      <p
+        class="text-[#172E80] leading-[24px] px-4 pt-2 pb-8 text-[14px] xl:text-[24px] xl:leading-[35px]"
+      >
         {{ content }}
       </p>
     </div>
