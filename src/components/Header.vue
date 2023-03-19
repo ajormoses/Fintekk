@@ -27,7 +27,7 @@ export default {
       <ul class="leading-[40px]">
         <a href="/"><li>Home</li></a>
         <a href="#about"><li>About</li></a>
-        <a href="#faqs"><li>FAQs</li></a>
+        <a href="#faq"><li>FAQs</li></a>
         <a href="#contact"><li>Contact Us</li></a>
       </ul>
       <button
