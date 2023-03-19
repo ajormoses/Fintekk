@@ -25,7 +25,7 @@ export default {
       v-if="menu === true"
     >
       <ul class="leading-[40px]">
-        <a href="/"><li>Home</li></a>
+        <a href="#home"><li>Home</li></a>
         <a href="#about"><li>About</li></a>
         <a href="#faq"><li>FAQs</li></a>
         <a href="#contact"><li>Contact Us</li></a>
