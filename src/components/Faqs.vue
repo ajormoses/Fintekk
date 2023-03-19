@@ -4,7 +4,7 @@ import FaqInput from "../components/Reusuable/FaqInput.vue";
 
 <template>
   <div id="faq" class="bg-[#2E5CFF] section">
-    <div class="w-[90%] md:w-4/5 lg:w-auto m-auto">
+    <div class="w-[90%] md:w-4/5 m-auto">
       <h1 class="text-white text-[38px] font-bold">FAQs</h1>
       <div class="pt-8">
         <FaqInput
