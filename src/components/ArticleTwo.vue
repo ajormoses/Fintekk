@@ -3,6 +3,8 @@
 <template>
   <div
     id="about"
+    data-aos="zoom-in"
+    data-aos-duration="1300"
     class="h-[260px] lg:h-[330px] flex justify-center items-center bg-white container text-center"
   >
     <h1
