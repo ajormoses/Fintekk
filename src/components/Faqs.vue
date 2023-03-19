@@ -3,7 +3,7 @@ import FaqInput from "../components/Reusuable/FaqInput.vue";
 </script>
 
 <template>
-  <div id="" class="bg-[#2E5CFF] section">
+  <div id="faq" class="bg-[#2E5CFF] section">
     <div class="px-6">
       <h1 class="text-white text-[38px] font-bold">FAQs</h1>
       <div class="pt-8">
