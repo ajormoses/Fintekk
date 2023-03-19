@@ -8,6 +8,7 @@ import ArticleFour from "./components/ArticleFour.vue";
 import ArticleFive from "./components/ArticleFive.vue";
 import ArticleSix from "./components/ArticleSix.vue";
 import ArticleSeven from "./components/ArticleSeven.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import ArticleSeven from "./components/ArticleSeven.vue";
   <ArticleFive />
   <ArticleSix />
   <ArticleSeven />
+  <Footer />
 </template>
 
 <style scoped></style>

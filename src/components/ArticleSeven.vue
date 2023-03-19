@@ -7,9 +7,9 @@
         <h1 class="text-[38px] leading-[46.1px] font-bold text-white">
           Start growing your wealth today
         </h1>
-        <form>
+        <form @submit.prevent>
           <input
-            class="h-[51px] bg-transparent border border-white rounded-[1rem] w-full my-5 px-5 text-white"
+            class="h-[51px] bg-transparent border border-white rounded-[1rem] w-full my-5 px-5 text-white placeholder-white"
             placeholder="Enter your email address"
           />
           <button
