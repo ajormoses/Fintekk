@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-const props = defineProps(["h", "p", "url"]);
+const props = defineProps(["h", "p", "url", "bg"]);
 </script>
 
 <template>
-  <div class="bg-[#F4F6FF] mb-8 rounded-[1.5rem] p-5">
+  <div class="mb-8 rounded-[1.5rem] p-5" :class="bg">
     <h1 class="text-[28px] leading-[34px] text-[#172E80] font-bold">
       <!-- Easy Payment -->
       {{ h }}

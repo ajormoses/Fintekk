@@ -15,21 +15,24 @@ import Service from "../components/Reusuable/Service.vue";
           finances and handle payments smooth and easy.
         </p>
       </div>
-      <div class="pt-10">
+      <div class="pt-10 lg:grid lg:grid-cols-3 lg:gap-8">
         <Service
           h="Easy Payment"
           p="Stress-free payment for all transactions that you do at any time."
           url="service1.svg"
+          bg="bg-[#F4F6FF]"
         />
         <Service
           h="Investments"
           p="Grow your money by investing in pre-vetted investment opportunities."
           url="service2.svg"
+          bg="bg-[#FEF7F1]"
         />
         <Service
           h="Fixed Savings"
           p="Build a dedicated savings faster on your terms automatically or manually."
           url="service3.svg"
+          bg="bg-[#F4F6FF]"
         />
       </div>
     </div>
