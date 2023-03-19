@@ -7,6 +7,7 @@ import ArticleThree from "./components/ArticleThree.vue";
 import ArticleFour from "./components/ArticleFour.vue";
 import ArticleFive from "./components/ArticleFive.vue";
 import ArticleSix from "./components/ArticleSix.vue";
+import ArticleSeven from "./components/ArticleSeven.vue";
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import ArticleSix from "./components/ArticleSix.vue";
   <ArticleFour />
   <ArticleFive />
   <ArticleSix />
+  <ArticleSeven />
 </template>
 
 <style scoped></style>

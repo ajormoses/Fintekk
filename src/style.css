@@ -54,4 +54,8 @@
   .btn {
     @apply py-[5px] px-[24px] rounded-[16px] gap-[10] text-[18px];
   }
+
+  input {
+    @apply outline-none;
+  }
 }
