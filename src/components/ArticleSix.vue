@@ -7,11 +7,17 @@
     >
       <div>
         <p
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1300"
           class="text-base lg:text-[18px] xl:text-[24px] leading-[19px] lg:leading-[29px] text-[#3A3A3A]"
         >
           TESTIMONIALS
         </p>
         <h1
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1500"
           class="font-bold text-[#172E80] text-[38px] leading-[50px] px-4 pt-3 lg:px-0 lg:text-[40px]"
         >
           What Our Customers Say About Us
