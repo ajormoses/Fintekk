@@ -6,6 +6,9 @@ import FaqInput from "../components/Reusuable/FaqInput.vue";
   <div id="faq" class="bg-[#2E5CFF] section">
     <div class="w-[90%] md:w-4/5 m-auto lg:py-8">
       <h1
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="1300"
         class="text-white text-[38px] lg:text-[50px] xl:text-[67px] font-bold"
       >
         FAQs

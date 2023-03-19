@@ -19,6 +19,9 @@ export default {
 <template>
   <div class="mb-4">
     <div
+      data-aos="zoom-in"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1500"
       @click="open"
       class="border border-white rounded-lg flex justify-between items-center py-2 px-4 lg:h-[60px] xl:h-[80px] cursor-pointer"
     >
