@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="section bg-[#FBFBFB]">
+  <div id="contact" class="section bg-[#FBFBFB]">
     <div class="container">
       <h1 class="text-[28px] leading-[33.9px] font-bold text-[#172E80]">
         Fintekk
