@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <div id="#home" class="section container text-center md:h-[100vh]">
+  <div class="section container text-center md:h-[100vh]">
     <div class="py-16">
       <h1 class="text-[38px] leading-[56px] font-bold text-[#172E80]">
         Pay, Invest, Save your Cash with a single bank
