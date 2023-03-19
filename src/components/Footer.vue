@@ -10,7 +10,7 @@
         Fintekk is the bank that does it all. Manage everything directly and
         easy with fintekk.
       </p>
-      <ul class="text-[#172E80] text-base grid grid-cols-2">
+      <ul class="text-[#172E80] text-base grid grid-cols-2 md:grid-cols-4">
         <div class="leading-[2rem]">
           <h1 class="font-bold pt-4">Company</h1>
           <li>Careers</li>
