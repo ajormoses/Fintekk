@@ -15,11 +15,15 @@ export default {
     >
       <div class="py-16 lg:py-0">
         <h1
+          data-aos="fade-up"
+          data-aos-duration="1300"
           class="text-[38px] lg:text-[50px] xl:text-[67px] leading-[50px] lg:leading-[60px] xl:leading-[85px] font-bold text-[#172E80]"
         >
           Pay, Invest, Save your Cash with a single bank
         </h1>
         <p
+          data-aos="fade-up"
+          data-aos-duration="1300"
           class="font-light text-base lg:text-[18px] xl:text-[24px] leading-[30px] lg:leading-[34px] text-[#777777] py-4"
         >
           Fintekk is the bank that does it all. Manage everything directly and
@@ -27,11 +31,13 @@ export default {
         </p>
         <div class="flex flex-col justify-center items-center lg:items-start">
           <button
+            data-aos="fade-up"
+            data-aos-duration="1500"
             class="btn bg-[#2E5CFF] text-[#fff] py-[16px] px-[24px] w-[200px] lg:w-[180px] mb-4"
           >
             Sign Up for Free
           </button>
-          <div class="lg:flex">
+          <div data-aos="fade-up" data-aos-duration="2000" class="lg:flex">
             <button
               class="p-[14px] lg:p-[10px] w-[200px] lg:w-[170px] bg-[#fff] rounded-2xl border border-[#3a3a3a] my-4 lg:my-0 flex justify-center items-center"
             >
