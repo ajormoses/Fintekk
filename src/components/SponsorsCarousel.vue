@@ -1,5 +1,5 @@
 <template>
-  <div class="py-8 bg-[#FBFBFB] relative">
+  <div class="py-8 lg:py-12 bg-[#FBFBFB] relative">
     <div
       class="slider opacity-[0.5] m-auto overflow-hidden relative max-w-[1500px]"
     >
