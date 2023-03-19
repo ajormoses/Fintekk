@@ -25,10 +25,10 @@ export default {
       v-if="menu === true"
     >
       <ul class="leading-[40px]">
-        <li>Home</li>
-        <li>About</li>
-        <li>FAQs</li>
-        <li>Contact Us</li>
+        <a href="/"><li>Home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="faqs"><li>FAQs</li></a>
+        <a href="#contact"><li>Contact Us</li></a>
       </ul>
       <button
         class="text-[#2E5CFF] border border-[#2E5CFF] bg-[#fff] mt-[15px] btn"
