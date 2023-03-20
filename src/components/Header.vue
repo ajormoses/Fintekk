@@ -5,16 +5,13 @@ export default {
       menu: false,
     };
   },
-
   methods: {
     toggle() {
       this.menu = !this.menu;
     },
-
     top() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
-
     topMobile() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     },
@@ -28,10 +25,10 @@ export default {
       <h1 class="text-[#2E5CFF] font-semibold text-[21px]">Fintekk</h1>
       <img @click="toggle" src="/img/hamburger.svg" alt="hamburger" />
     </div>
-
     <nav
-      class="h-full w-full absolute -left-full mt-[76px] bg-[#5BCDF0] transition-all duration-500 text-center py-2 rounded-lg z-30"
-      :class="{ 'open-sidebar': menu }"
+      data-aos="fade-right"
+      class="nav container bg-[#5BCDF0] text-center py-2 rounded-lg z-30 lg:hidden"
+      v-if="menu === true"
     >
       <ul class="leading-[40px]">
         <a @click="topMobile" href="#home"><li>Home</li></a>
@@ -49,7 +46,6 @@ export default {
         Sign Up for Free
       </button>
     </nav>
-
     <div
       class="hidden container py-4 xl:py-6 lg:flex justify-between items-center"
     >
@@ -91,15 +87,16 @@ export default {
 <style scoped>
 .nav {
   position: absolute;
-
-  width: 100%;
+  top: 72px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(-50%);
 }
-
 ul li {
   font-size: 18px;
   color: #fff;
 }
-
 ul li:hover {
   background: #fff;
   color: #2e5cff;
