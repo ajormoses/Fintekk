@@ -24,11 +24,21 @@
         </h1>
       </div>
       <div class="bg-white rounded-[1.5rem] p-4 mt-4">
-        <p class="leading-[30px] text-base py-4 text-[#3A3A3A]">
+        <p
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1600"
+          class="leading-[30px] text-base py-4 text-[#3A3A3A]"
+        >
           Dealt with enquiries and subsequent transactions efficiently and
           quickly. I’m so pleased with the pricing and service.
         </p>
-        <div class="w-[200px] m-auto lg:m-0">
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="1700"
+          class="w-[200px] m-auto lg:m-0"
+        >
           <h1 class="text-[#172E80] text-[24px] leading-[29px] font-medium">
             Maryam Adegoke
           </h1>
