@@ -8,11 +8,17 @@
       >
         <div class="lg:w-[500px] lg:m-auto lg:text-center">
           <h1
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1400"
             class="text-[38px] lg:text-[50px] lg:leading-[60px] lg:px-[3.6rem] leading-[46.1px] font-bold text-white"
           >
             Start growing your wealth today
           </h1>
           <form
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-duration="1500"
             @submit.prevent
             class="lg:border lg:border-white lg:rounded-[2rem] lg:flex lg:justify-between lg:items-center lg:pl-6 lg:mt-6"
           >
