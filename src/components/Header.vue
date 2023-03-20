@@ -28,9 +28,10 @@ export default {
       <h1 class="text-[#2E5CFF] font-semibold text-[21px]">Fintekk</h1>
       <img @click="toggle" src="/img/hamburger.svg" alt="hamburger" />
     </div>
-    <div
-      class="nav container bg-[#5BCDF0] text-center py-2 rounded-lg z-30 lg:hidden"
-      v-if="menu === true"
+
+    <nav
+      class="h-full w-full absolute -left-full mt-[76px] bg-[#5BCDF0] transition-all duration-500 text-center py-2 rounded-lg z-30"
+      :class="{ 'open-sidebar': menu }"
     >
       <ul class="leading-[40px]">
         <a @click="topMobile" href="#home"><li>Home</li></a>
@@ -47,7 +48,8 @@ export default {
       <button class="bg-[#2E5CFF] text-white my-[15px] btn">
         Sign Up for Free
       </button>
-    </div>
+    </nav>
+
     <div
       class="hidden container py-4 xl:py-6 lg:flex justify-between items-center"
     >
@@ -89,9 +91,7 @@ export default {
 <style scoped>
 .nav {
   position: absolute;
-  top: 0px;
-  left: 50%;
-  transform: translate(-50%, 30%);
+
   width: 100%;
 }
 
