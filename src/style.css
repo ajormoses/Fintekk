@@ -58,8 +58,4 @@
   input {
     @apply outline-none;
   }
-
-  .open-sidebar {
-    @apply left-0;
-  }
 }
